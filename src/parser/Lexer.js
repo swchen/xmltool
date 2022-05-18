@@ -197,23 +197,25 @@ export default class Lexer {
     }
 
     name() {
-        return this.someRe(
-            Constant.NameReMap.NAME_START_CHAR,
-            "NameStartChar",
-        ) + this.manyRe(
-            Constant.NameReMap.NAME_CHAR,
-            "NameChar",
-        );
+        return this.oneRe(
+                Constant.NameReMap.NAME_START_CHAR,
+                "NameStartChar",
+            )
+            + this.manyRe(
+                Constant.NameReMap.NAME_CHAR,
+                "NameChar",
+            );
     }
 
     ncName() {
-        return this.someRe(
-            Constant.NameReMap.NCNAME_START_CHAR,
-            "NCNameStartChar",
-        ) + this.manyRe(
-            Constant.NameReMap.NCNAME_CHAR,
-            "NCNameChar",
-        );
+        return this.oneRe(
+                Constant.NameReMap.NCNAME_START_CHAR,
+                "NCNameStartChar",
+            )
+            + this.manyRe(
+                Constant.NameReMap.NCNAME_CHAR,
+                "NCNameChar",
+            );
     }
 
 
@@ -227,7 +229,7 @@ export default class Lexer {
 
 
     encodingName() {
-        return this.someRe(/[A-Za-z]/, "EncodingNameStartChar")
+        return this.oneRe(/[A-Za-z]/, "EncodingNameStartChar")
             + this.manyRe(
                 /[A-Za-z0-9._-]/,
                 "EncodingNameChar",
