@@ -1,0 +1,2174 @@
+{
+    "range": {
+        "begin": {
+            "offset": 0,
+            "line": 1,
+            "column": 1
+        },
+        "end": {
+            "offset": 1198,
+            "line": 53,
+            "column": 1
+        }
+    },
+    "children": [
+        {
+            "range": {
+                "begin": {
+                    "offset": 0,
+                    "line": 1,
+                    "column": 1
+                },
+                "end": {
+                    "offset": 39,
+                    "line": 1,
+                    "column": 40
+                }
+            },
+            "nodeType": "XML_DECLARATION",
+            "version": "1.0",
+            "encoding": null,
+            "standalone": "yes"
+        },
+        {
+            "range": {
+                "begin": {
+                    "offset": 41,
+                    "line": 3,
+                    "column": 1
+                },
+                "end": {
+                    "offset": 74,
+                    "line": 3,
+                    "column": 34
+                }
+            },
+            "nodeType": "COMMENT",
+            "value": " Comment in document body "
+        },
+        {
+            "range": {
+                "begin": {
+                    "offset": 76,
+                    "line": 5,
+                    "column": 1
+                },
+                "end": {
+                    "offset": 127,
+                    "line": 5,
+                    "column": 52
+                }
+            },
+            "nodeType": "PROCESSING_INSTRUCTION",
+            "target": "xml-stylesheet",
+            "data": "type=\"text/css\" href=\"style.css\""
+        },
+        {
+            "range": {
+                "begin": {
+                    "offset": 130,
+                    "line": 8,
+                    "column": 1
+                },
+                "end": {
+                    "offset": 219,
+                    "line": 11,
+                    "column": 7
+                }
+            },
+            "nodeType": "DOCUMENT_TYPE",
+            "name": "form",
+            "publicId": null,
+            "systemId": null,
+            "internalSubset": "\n    <!-- Comment in DTD -->\n    <!ELEMENT form (group*|script?) >\n    "
+        },
+        {
+            "range": {
+                "begin": {
+                    "offset": 221,
+                    "line": 13,
+                    "column": 1
+                },
+                "end": {
+                    "offset": 1197,
+                    "line": 52,
+                    "column": 8
+                }
+            },
+            "children": [
+                {
+                    "range": {
+                        "begin": {
+                            "offset": 464,
+                            "line": 16,
+                            "column": 72
+                        },
+                        "end": {
+                            "offset": 470,
+                            "line": 18,
+                            "column": 5
+                        }
+                    },
+                    "nodeType": "TEXT",
+                    "value": "\n\n    "
+                },
+                {
+                    "range": {
+                        "begin": {
+                            "offset": 470,
+                            "line": 18,
+                            "column": 5
+                        },
+                        "end": {
+                            "offset": 502,
+                            "line": 18,
+                            "column": 37
+                        }
+                    },
+                    "nodeType": "COMMENT",
+                    "value": " Comment in element form "
+                },
+                {
+                    "range": {
+                        "begin": {
+                            "offset": 502,
+                            "line": 18,
+                            "column": 37
+                        },
+                        "end": {
+                            "offset": 508,
+                            "line": 20,
+                            "column": 5
+                        }
+                    },
+                    "nodeType": "TEXT",
+                    "value": "\n\n    "
+                },
+                {
+                    "range": {
+                        "begin": {
+                            "offset": 508,
+                            "line": 20,
+                            "column": 5
+                        },
+                        "end": {
+                            "offset": 754,
+                            "line": 30,
+                            "column": 13
+                        }
+                    },
+                    "children": [
+                        {
+                            "range": {
+                                "begin": {
+                                    "offset": 572,
+                                    "line": 22,
+                                    "column": 23
+                                },
+                                "end": {
+                                    "offset": 581,
+                                    "line": 23,
+                                    "column": 9
+                                }
+                            },
+                            "nodeType": "TEXT",
+                            "value": "\n        "
+                        },
+                        {
+                            "range": {
+                                "begin": {
+                                    "offset": 581,
+                                    "line": 23,
+                                    "column": 9
+                                },
+                                "end": {
+                                    "offset": 616,
+                                    "line": 23,
+                                    "column": 44
+                                }
+                            },
+                            "nodeType": "COMMENT",
+                            "value": " Comment in element section "
+                        },
+                        {
+                            "range": {
+                                "begin": {
+                                    "offset": 616,
+                                    "line": 23,
+                                    "column": 44
+                                },
+                                "end": {
+                                    "offset": 639,
+                                    "line": 25,
+                                    "column": 9
+                                }
+                            },
+                            "nodeType": "TEXT",
+                            "value": "\n        user:\n        "
+                        },
+                        {
+                            "range": {
+                                "begin": {
+                                    "offset": 639,
+                                    "line": 25,
+                                    "column": 9
+                                },
+                                "end": {
+                                    "offset": 647,
+                                    "line": 25,
+                                    "column": 17
+                                }
+                            },
+                            "children": [],
+                            "nodeType": "ELEMENT",
+                            "name": "input",
+                            "attributes": [],
+                            "value": "",
+                            "isEmpty": true,
+                            "openTagRange": {
+                                "begin": {
+                                    "offset": 639,
+                                    "line": 25,
+                                    "column": 9
+                                },
+                                "end": {
+                                    "offset": 647,
+                                    "line": 25,
+                                    "column": 17
+                                }
+                            },
+                            "closeTagRange": {
+                                "begin": {
+                                    "offset": 639,
+                                    "line": 25,
+                                    "column": 9
+                                },
+                                "end": {
+                                    "offset": 647,
+                                    "line": 25,
+                                    "column": 17
+                                }
+                            }
+                        },
+                        {
+                            "range": {
+                                "begin": {
+                                    "offset": 647,
+                                    "line": 25,
+                                    "column": 17
+                                },
+                                "end": {
+                                    "offset": 674,
+                                    "line": 27,
+                                    "column": 9
+                                }
+                            },
+                            "nodeType": "TEXT",
+                            "value": "\n        password:\n        "
+                        },
+                        {
+                            "range": {
+                                "begin": {
+                                    "offset": 674,
+                                    "line": 27,
+                                    "column": 9
+                                },
+                                "end": {
+                                    "offset": 698,
+                                    "line": 27,
+                                    "column": 33
+                                }
+                            },
+                            "children": [],
+                            "nodeType": "ELEMENT",
+                            "name": "input",
+                            "attributes": [
+                                {
+                                    "range": {
+                                        "begin": {
+                                            "offset": 681,
+                                            "line": 27,
+                                            "column": 16
+                                        },
+                                        "end": {
+                                            "offset": 696,
+                                            "line": 27,
+                                            "column": 31
+                                        }
+                                    },
+                                    "nodeType": "ATTRIBUTE",
+                                    "name": "type",
+                                    "value": "password"
+                                }
+                            ],
+                            "value": "",
+                            "isEmpty": true,
+                            "openTagRange": {
+                                "begin": {
+                                    "offset": 674,
+                                    "line": 27,
+                                    "column": 9
+                                },
+                                "end": {
+                                    "offset": 698,
+                                    "line": 27,
+                                    "column": 33
+                                }
+                            },
+                            "closeTagRange": {
+                                "begin": {
+                                    "offset": 674,
+                                    "line": 27,
+                                    "column": 9
+                                },
+                                "end": {
+                                    "offset": 698,
+                                    "line": 27,
+                                    "column": 33
+                                }
+                            }
+                        },
+                        {
+                            "range": {
+                                "begin": {
+                                    "offset": 698,
+                                    "line": 27,
+                                    "column": 33
+                                },
+                                "end": {
+                                    "offset": 721,
+                                    "line": 29,
+                                    "column": 9
+                                }
+                            },
+                            "nodeType": "TEXT",
+                            "value": "\n        file:\n        "
+                        },
+                        {
+                            "range": {
+                                "begin": {
+                                    "offset": 721,
+                                    "line": 29,
+                                    "column": 9
+                                },
+                                "end": {
+                                    "offset": 741,
+                                    "line": 29,
+                                    "column": 29
+                                }
+                            },
+                            "children": [],
+                            "nodeType": "ELEMENT",
+                            "name": "input",
+                            "attributes": [
+                                {
+                                    "range": {
+                                        "begin": {
+                                            "offset": 728,
+                                            "line": 29,
+                                            "column": 16
+                                        },
+                                        "end": {
+                                            "offset": 739,
+                                            "line": 29,
+                                            "column": 27
+                                        }
+                                    },
+                                    "nodeType": "ATTRIBUTE",
+                                    "name": "type",
+                                    "value": "file"
+                                }
+                            ],
+                            "value": "",
+                            "isEmpty": true,
+                            "openTagRange": {
+                                "begin": {
+                                    "offset": 721,
+                                    "line": 29,
+                                    "column": 9
+                                },
+                                "end": {
+                                    "offset": 741,
+                                    "line": 29,
+                                    "column": 29
+                                }
+                            },
+                            "closeTagRange": {
+                                "begin": {
+                                    "offset": 721,
+                                    "line": 29,
+                                    "column": 9
+                                },
+                                "end": {
+                                    "offset": 741,
+                                    "line": 29,
+                                    "column": 29
+                                }
+                            }
+                        },
+                        {
+                            "range": {
+                                "begin": {
+                                    "offset": 741,
+                                    "line": 29,
+                                    "column": 29
+                                },
+                                "end": {
+                                    "offset": 746,
+                                    "line": 30,
+                                    "column": 5
+                                }
+                            },
+                            "nodeType": "TEXT",
+                            "value": "\n    "
+                        }
+                    ],
+                    "nodeType": "ELEMENT",
+                    "name": "group",
+                    "attributes": [
+                        {
+                            "range": {
+                                "begin": {
+                                    "offset": 515,
+                                    "line": 20,
+                                    "column": 12
+                                },
+                                "end": {
+                                    "offset": 526,
+                                    "line": 20,
+                                    "column": 23
+                                }
+                            },
+                            "nodeType": "ATTRIBUTE",
+                            "name": "margin",
+                            "value": "10"
+                        },
+                        {
+                            "range": {
+                                "begin": {
+                                    "offset": 538,
+                                    "line": 21,
+                                    "column": 12
+                                },
+                                "end": {
+                                    "offset": 549,
+                                    "line": 21,
+                                    "column": 23
+                                }
+                            },
+                            "nodeType": "ATTRIBUTE",
+                            "name": "padding",
+                            "value": "5"
+                        },
+                        {
+                            "range": {
+                                "begin": {
+                                    "offset": 561,
+                                    "line": 22,
+                                    "column": 12
+                                },
+                                "end": {
+                                    "offset": 571,
+                                    "line": 22,
+                                    "column": 22
+                                }
+                            },
+                            "nodeType": "ATTRIBUTE",
+                            "name": "border",
+                            "value": "1"
+                        }
+                    ],
+                    "value": "\n        \n        user:\n        \n        password:\n        \n        file:\n        \n    ",
+                    "isEmpty": false,
+                    "openTagRange": {
+                        "begin": {
+                            "offset": 508,
+                            "line": 20,
+                            "column": 5
+                        },
+                        "end": {
+                            "offset": 572,
+                            "line": 22,
+                            "column": 23
+                        }
+                    },
+                    "closeTagRange": {
+                        "begin": {
+                            "offset": 746,
+                            "line": 30,
+                            "column": 5
+                        },
+                        "end": {
+                            "offset": 754,
+                            "line": 30,
+                            "column": 13
+                        }
+                    }
+                },
+                {
+                    "range": {
+                        "begin": {
+                            "offset": 754,
+                            "line": 30,
+                            "column": 13
+                        },
+                        "end": {
+                            "offset": 760,
+                            "line": 32,
+                            "column": 5
+                        }
+                    },
+                    "nodeType": "TEXT",
+                    "value": "\n\n    "
+                },
+                {
+                    "range": {
+                        "begin": {
+                            "offset": 760,
+                            "line": 32,
+                            "column": 5
+                        },
+                        "end": {
+                            "offset": 1062,
+                            "line": 42,
+                            "column": 20
+                        }
+                    },
+                    "children": [
+                        {
+                            "range": {
+                                "begin": {
+                                    "offset": 852,
+                                    "line": 34,
+                                    "column": 30
+                                },
+                                "end": {
+                                    "offset": 861,
+                                    "line": 35,
+                                    "column": 9
+                                }
+                            },
+                            "nodeType": "TEXT",
+                            "value": "\n        "
+                        },
+                        {
+                            "range": {
+                                "begin": {
+                                    "offset": 861,
+                                    "line": 35,
+                                    "column": 9
+                                },
+                                "end": {
+                                    "offset": 896,
+                                    "line": 35,
+                                    "column": 44
+                                }
+                            },
+                            "nodeType": "COMMENT",
+                            "value": " Comment in element section "
+                        },
+                        {
+                            "range": {
+                                "begin": {
+                                    "offset": 896,
+                                    "line": 35,
+                                    "column": 44
+                                },
+                                "end": {
+                                    "offset": 919,
+                                    "line": 37,
+                                    "column": 9
+                                }
+                            },
+                            "nodeType": "TEXT",
+                            "value": "\n        user:\n        "
+                        },
+                        {
+                            "range": {
+                                "begin": {
+                                    "offset": 919,
+                                    "line": 37,
+                                    "column": 9
+                                },
+                                "end": {
+                                    "offset": 934,
+                                    "line": 37,
+                                    "column": 24
+                                }
+                            },
+                            "children": [],
+                            "nodeType": "ELEMENT",
+                            "name": "extern:input",
+                            "attributes": [],
+                            "value": "",
+                            "isEmpty": true,
+                            "openTagRange": {
+                                "begin": {
+                                    "offset": 919,
+                                    "line": 37,
+                                    "column": 9
+                                },
+                                "end": {
+                                    "offset": 934,
+                                    "line": 37,
+                                    "column": 24
+                                }
+                            },
+                            "closeTagRange": {
+                                "begin": {
+                                    "offset": 919,
+                                    "line": 37,
+                                    "column": 9
+                                },
+                                "end": {
+                                    "offset": 934,
+                                    "line": 37,
+                                    "column": 24
+                                }
+                            }
+                        },
+                        {
+                            "range": {
+                                "begin": {
+                                    "offset": 934,
+                                    "line": 37,
+                                    "column": 24
+                                },
+                                "end": {
+                                    "offset": 961,
+                                    "line": 39,
+                                    "column": 9
+                                }
+                            },
+                            "nodeType": "TEXT",
+                            "value": "\n        password:\n        "
+                        },
+                        {
+                            "range": {
+                                "begin": {
+                                    "offset": 961,
+                                    "line": 39,
+                                    "column": 9
+                                },
+                                "end": {
+                                    "offset": 992,
+                                    "line": 39,
+                                    "column": 40
+                                }
+                            },
+                            "children": [],
+                            "nodeType": "ELEMENT",
+                            "name": "extern:input",
+                            "attributes": [
+                                {
+                                    "range": {
+                                        "begin": {
+                                            "offset": 975,
+                                            "line": 39,
+                                            "column": 23
+                                        },
+                                        "end": {
+                                            "offset": 990,
+                                            "line": 39,
+                                            "column": 38
+                                        }
+                                    },
+                                    "nodeType": "ATTRIBUTE",
+                                    "name": "type",
+                                    "value": "password"
+                                }
+                            ],
+                            "value": "",
+                            "isEmpty": true,
+                            "openTagRange": {
+                                "begin": {
+                                    "offset": 961,
+                                    "line": 39,
+                                    "column": 9
+                                },
+                                "end": {
+                                    "offset": 992,
+                                    "line": 39,
+                                    "column": 40
+                                }
+                            },
+                            "closeTagRange": {
+                                "begin": {
+                                    "offset": 961,
+                                    "line": 39,
+                                    "column": 9
+                                },
+                                "end": {
+                                    "offset": 992,
+                                    "line": 39,
+                                    "column": 40
+                                }
+                            }
+                        },
+                        {
+                            "range": {
+                                "begin": {
+                                    "offset": 992,
+                                    "line": 39,
+                                    "column": 40
+                                },
+                                "end": {
+                                    "offset": 1015,
+                                    "line": 41,
+                                    "column": 9
+                                }
+                            },
+                            "nodeType": "TEXT",
+                            "value": "\n        file:\n        "
+                        },
+                        {
+                            "range": {
+                                "begin": {
+                                    "offset": 1015,
+                                    "line": 41,
+                                    "column": 9
+                                },
+                                "end": {
+                                    "offset": 1042,
+                                    "line": 41,
+                                    "column": 36
+                                }
+                            },
+                            "children": [],
+                            "nodeType": "ELEMENT",
+                            "name": "extern:input",
+                            "attributes": [
+                                {
+                                    "range": {
+                                        "begin": {
+                                            "offset": 1029,
+                                            "line": 41,
+                                            "column": 23
+                                        },
+                                        "end": {
+                                            "offset": 1040,
+                                            "line": 41,
+                                            "column": 34
+                                        }
+                                    },
+                                    "nodeType": "ATTRIBUTE",
+                                    "name": "type",
+                                    "value": "file"
+                                }
+                            ],
+                            "value": "",
+                            "isEmpty": true,
+                            "openTagRange": {
+                                "begin": {
+                                    "offset": 1015,
+                                    "line": 41,
+                                    "column": 9
+                                },
+                                "end": {
+                                    "offset": 1042,
+                                    "line": 41,
+                                    "column": 36
+                                }
+                            },
+                            "closeTagRange": {
+                                "begin": {
+                                    "offset": 1015,
+                                    "line": 41,
+                                    "column": 9
+                                },
+                                "end": {
+                                    "offset": 1042,
+                                    "line": 41,
+                                    "column": 36
+                                }
+                            }
+                        },
+                        {
+                            "range": {
+                                "begin": {
+                                    "offset": 1042,
+                                    "line": 41,
+                                    "column": 36
+                                },
+                                "end": {
+                                    "offset": 1047,
+                                    "line": 42,
+                                    "column": 5
+                                }
+                            },
+                            "nodeType": "TEXT",
+                            "value": "\n    "
+                        }
+                    ],
+                    "nodeType": "ELEMENT",
+                    "name": "extern:group",
+                    "attributes": [
+                        {
+                            "range": {
+                                "begin": {
+                                    "offset": 774,
+                                    "line": 32,
+                                    "column": 19
+                                },
+                                "end": {
+                                    "offset": 792,
+                                    "line": 32,
+                                    "column": 37
+                                }
+                            },
+                            "nodeType": "ATTRIBUTE",
+                            "name": "extern:margin",
+                            "value": "10"
+                        },
+                        {
+                            "range": {
+                                "begin": {
+                                    "offset": 811,
+                                    "line": 33,
+                                    "column": 19
+                                },
+                                "end": {
+                                    "offset": 822,
+                                    "line": 33,
+                                    "column": 30
+                                }
+                            },
+                            "nodeType": "ATTRIBUTE",
+                            "name": "padding",
+                            "value": "5"
+                        },
+                        {
+                            "range": {
+                                "begin": {
+                                    "offset": 841,
+                                    "line": 34,
+                                    "column": 19
+                                },
+                                "end": {
+                                    "offset": 851,
+                                    "line": 34,
+                                    "column": 29
+                                }
+                            },
+                            "nodeType": "ATTRIBUTE",
+                            "name": "border",
+                            "value": "1"
+                        }
+                    ],
+                    "value": "\n        \n        user:\n        \n        password:\n        \n        file:\n        \n    ",
+                    "isEmpty": false,
+                    "openTagRange": {
+                        "begin": {
+                            "offset": 760,
+                            "line": 32,
+                            "column": 5
+                        },
+                        "end": {
+                            "offset": 852,
+                            "line": 34,
+                            "column": 30
+                        }
+                    },
+                    "closeTagRange": {
+                        "begin": {
+                            "offset": 1047,
+                            "line": 42,
+                            "column": 5
+                        },
+                        "end": {
+                            "offset": 1062,
+                            "line": 42,
+                            "column": 20
+                        }
+                    }
+                },
+                {
+                    "range": {
+                        "begin": {
+                            "offset": 1062,
+                            "line": 42,
+                            "column": 20
+                        },
+                        "end": {
+                            "offset": 1068,
+                            "line": 44,
+                            "column": 5
+                        }
+                    },
+                    "nodeType": "TEXT",
+                    "value": "\n\n    "
+                },
+                {
+                    "range": {
+                        "begin": {
+                            "offset": 1068,
+                            "line": 44,
+                            "column": 5
+                        },
+                        "end": {
+                            "offset": 1189,
+                            "line": 51,
+                            "column": 14
+                        }
+                    },
+                    "children": [
+                        {
+                            "range": {
+                                "begin": {
+                                    "offset": 1076,
+                                    "line": 44,
+                                    "column": 13
+                                },
+                                "end": {
+                                    "offset": 1085,
+                                    "line": 45,
+                                    "column": 9
+                                }
+                            },
+                            "nodeType": "TEXT",
+                            "value": "\n        "
+                        },
+                        {
+                            "range": {
+                                "begin": {
+                                    "offset": 1085,
+                                    "line": 45,
+                                    "column": 9
+                                },
+                                "end": {
+                                    "offset": 1175,
+                                    "line": 50,
+                                    "column": 4
+                                }
+                            },
+                            "nodeType": "CDATA",
+                            "value": "\n\n        function foo() {\n            console.log(\"Hello World!\");\n        }\n"
+                        },
+                        {
+                            "range": {
+                                "begin": {
+                                    "offset": 1175,
+                                    "line": 50,
+                                    "column": 4
+                                },
+                                "end": {
+                                    "offset": 1180,
+                                    "line": 51,
+                                    "column": 5
+                                }
+                            },
+                            "nodeType": "TEXT",
+                            "value": "\n    "
+                        }
+                    ],
+                    "nodeType": "ELEMENT",
+                    "name": "script",
+                    "attributes": [],
+                    "value": "\n        \n\n        function foo() {\n            console.log(\"Hello World!\");\n        }\n\n    ",
+                    "isEmpty": false,
+                    "openTagRange": {
+                        "begin": {
+                            "offset": 1068,
+                            "line": 44,
+                            "column": 5
+                        },
+                        "end": {
+                            "offset": 1076,
+                            "line": 44,
+                            "column": 13
+                        }
+                    },
+                    "closeTagRange": {
+                        "begin": {
+                            "offset": 1180,
+                            "line": 51,
+                            "column": 5
+                        },
+                        "end": {
+                            "offset": 1189,
+                            "line": 51,
+                            "column": 14
+                        }
+                    }
+                },
+                {
+                    "range": {
+                        "begin": {
+                            "offset": 1189,
+                            "line": 51,
+                            "column": 14
+                        },
+                        "end": {
+                            "offset": 1190,
+                            "line": 52,
+                            "column": 1
+                        }
+                    },
+                    "nodeType": "TEXT",
+                    "value": "\n"
+                }
+            ],
+            "nodeType": "ELEMENT",
+            "name": "form",
+            "attributes": [
+                {
+                    "range": {
+                        "begin": {
+                            "offset": 227,
+                            "line": 13,
+                            "column": 7
+                        },
+                        "end": {
+                            "offset": 269,
+                            "line": 13,
+                            "column": 49
+                        }
+                    },
+                    "nodeType": "ATTRIBUTE",
+                    "name": "xmlns",
+                    "value": "https://www.swchen.com/schema/form"
+                },
+                {
+                    "range": {
+                        "begin": {
+                            "offset": 276,
+                            "line": 14,
+                            "column": 7
+                        },
+                        "end": {
+                            "offset": 332,
+                            "line": 14,
+                            "column": 63
+                        }
+                    },
+                    "nodeType": "ATTRIBUTE",
+                    "name": "xmlns:extern",
+                    "value": "https://www.swchen.com/schema/form/extern"
+                },
+                {
+                    "range": {
+                        "begin": {
+                            "offset": 339,
+                            "line": 15,
+                            "column": 7
+                        },
+                        "end": {
+                            "offset": 392,
+                            "line": 15,
+                            "column": 60
+                        }
+                    },
+                    "nodeType": "ATTRIBUTE",
+                    "name": "xmlns:xsi",
+                    "value": "http://www.w3.org/2001/XMLSchema-instance"
+                },
+                {
+                    "range": {
+                        "begin": {
+                            "offset": 399,
+                            "line": 16,
+                            "column": 7
+                        },
+                        "end": {
+                            "offset": 463,
+                            "line": 16,
+                            "column": 71
+                        }
+                    },
+                    "nodeType": "ATTRIBUTE",
+                    "name": "xsi:schemaLocation",
+                    "value": "https://www.swchen.com/schema/form form.xsd"
+                }
+            ],
+            "value": "\n\n    \n\n    \n        \n        user:\n        \n        password:\n        \n        file:\n        \n    \n\n    \n        \n        user:\n        \n        password:\n        \n        file:\n        \n    \n\n    \n        \n\n        function foo() {\n            console.log(\"Hello World!\");\n        }\n\n    \n",
+            "isEmpty": false,
+            "openTagRange": {
+                "begin": {
+                    "offset": 221,
+                    "line": 13,
+                    "column": 1
+                },
+                "end": {
+                    "offset": 464,
+                    "line": 16,
+                    "column": 72
+                }
+            },
+            "closeTagRange": {
+                "begin": {
+                    "offset": 1190,
+                    "line": 52,
+                    "column": 1
+                },
+                "end": {
+                    "offset": 1197,
+                    "line": 52,
+                    "column": 8
+                }
+            }
+        }
+    ],
+    "nodeType": "DOCUMENT",
+    "documentElement": {
+        "range": {
+            "begin": {
+                "offset": 221,
+                "line": 13,
+                "column": 1
+            },
+            "end": {
+                "offset": 1197,
+                "line": 52,
+                "column": 8
+            }
+        },
+        "children": [
+            {
+                "range": {
+                    "begin": {
+                        "offset": 464,
+                        "line": 16,
+                        "column": 72
+                    },
+                    "end": {
+                        "offset": 470,
+                        "line": 18,
+                        "column": 5
+                    }
+                },
+                "nodeType": "TEXT",
+                "value": "\n\n    "
+            },
+            {
+                "range": {
+                    "begin": {
+                        "offset": 470,
+                        "line": 18,
+                        "column": 5
+                    },
+                    "end": {
+                        "offset": 502,
+                        "line": 18,
+                        "column": 37
+                    }
+                },
+                "nodeType": "COMMENT",
+                "value": " Comment in element form "
+            },
+            {
+                "range": {
+                    "begin": {
+                        "offset": 502,
+                        "line": 18,
+                        "column": 37
+                    },
+                    "end": {
+                        "offset": 508,
+                        "line": 20,
+                        "column": 5
+                    }
+                },
+                "nodeType": "TEXT",
+                "value": "\n\n    "
+            },
+            {
+                "range": {
+                    "begin": {
+                        "offset": 508,
+                        "line": 20,
+                        "column": 5
+                    },
+                    "end": {
+                        "offset": 754,
+                        "line": 30,
+                        "column": 13
+                    }
+                },
+                "children": [
+                    {
+                        "range": {
+                            "begin": {
+                                "offset": 572,
+                                "line": 22,
+                                "column": 23
+                            },
+                            "end": {
+                                "offset": 581,
+                                "line": 23,
+                                "column": 9
+                            }
+                        },
+                        "nodeType": "TEXT",
+                        "value": "\n        "
+                    },
+                    {
+                        "range": {
+                            "begin": {
+                                "offset": 581,
+                                "line": 23,
+                                "column": 9
+                            },
+                            "end": {
+                                "offset": 616,
+                                "line": 23,
+                                "column": 44
+                            }
+                        },
+                        "nodeType": "COMMENT",
+                        "value": " Comment in element section "
+                    },
+                    {
+                        "range": {
+                            "begin": {
+                                "offset": 616,
+                                "line": 23,
+                                "column": 44
+                            },
+                            "end": {
+                                "offset": 639,
+                                "line": 25,
+                                "column": 9
+                            }
+                        },
+                        "nodeType": "TEXT",
+                        "value": "\n        user:\n        "
+                    },
+                    {
+                        "range": {
+                            "begin": {
+                                "offset": 639,
+                                "line": 25,
+                                "column": 9
+                            },
+                            "end": {
+                                "offset": 647,
+                                "line": 25,
+                                "column": 17
+                            }
+                        },
+                        "children": [],
+                        "nodeType": "ELEMENT",
+                        "name": "input",
+                        "attributes": [],
+                        "value": "",
+                        "isEmpty": true,
+                        "openTagRange": {
+                            "begin": {
+                                "offset": 639,
+                                "line": 25,
+                                "column": 9
+                            },
+                            "end": {
+                                "offset": 647,
+                                "line": 25,
+                                "column": 17
+                            }
+                        },
+                        "closeTagRange": {
+                            "begin": {
+                                "offset": 639,
+                                "line": 25,
+                                "column": 9
+                            },
+                            "end": {
+                                "offset": 647,
+                                "line": 25,
+                                "column": 17
+                            }
+                        }
+                    },
+                    {
+                        "range": {
+                            "begin": {
+                                "offset": 647,
+                                "line": 25,
+                                "column": 17
+                            },
+                            "end": {
+                                "offset": 674,
+                                "line": 27,
+                                "column": 9
+                            }
+                        },
+                        "nodeType": "TEXT",
+                        "value": "\n        password:\n        "
+                    },
+                    {
+                        "range": {
+                            "begin": {
+                                "offset": 674,
+                                "line": 27,
+                                "column": 9
+                            },
+                            "end": {
+                                "offset": 698,
+                                "line": 27,
+                                "column": 33
+                            }
+                        },
+                        "children": [],
+                        "nodeType": "ELEMENT",
+                        "name": "input",
+                        "attributes": [
+                            {
+                                "range": {
+                                    "begin": {
+                                        "offset": 681,
+                                        "line": 27,
+                                        "column": 16
+                                    },
+                                    "end": {
+                                        "offset": 696,
+                                        "line": 27,
+                                        "column": 31
+                                    }
+                                },
+                                "nodeType": "ATTRIBUTE",
+                                "name": "type",
+                                "value": "password"
+                            }
+                        ],
+                        "value": "",
+                        "isEmpty": true,
+                        "openTagRange": {
+                            "begin": {
+                                "offset": 674,
+                                "line": 27,
+                                "column": 9
+                            },
+                            "end": {
+                                "offset": 698,
+                                "line": 27,
+                                "column": 33
+                            }
+                        },
+                        "closeTagRange": {
+                            "begin": {
+                                "offset": 674,
+                                "line": 27,
+                                "column": 9
+                            },
+                            "end": {
+                                "offset": 698,
+                                "line": 27,
+                                "column": 33
+                            }
+                        }
+                    },
+                    {
+                        "range": {
+                            "begin": {
+                                "offset": 698,
+                                "line": 27,
+                                "column": 33
+                            },
+                            "end": {
+                                "offset": 721,
+                                "line": 29,
+                                "column": 9
+                            }
+                        },
+                        "nodeType": "TEXT",
+                        "value": "\n        file:\n        "
+                    },
+                    {
+                        "range": {
+                            "begin": {
+                                "offset": 721,
+                                "line": 29,
+                                "column": 9
+                            },
+                            "end": {
+                                "offset": 741,
+                                "line": 29,
+                                "column": 29
+                            }
+                        },
+                        "children": [],
+                        "nodeType": "ELEMENT",
+                        "name": "input",
+                        "attributes": [
+                            {
+                                "range": {
+                                    "begin": {
+                                        "offset": 728,
+                                        "line": 29,
+                                        "column": 16
+                                    },
+                                    "end": {
+                                        "offset": 739,
+                                        "line": 29,
+                                        "column": 27
+                                    }
+                                },
+                                "nodeType": "ATTRIBUTE",
+                                "name": "type",
+                                "value": "file"
+                            }
+                        ],
+                        "value": "",
+                        "isEmpty": true,
+                        "openTagRange": {
+                            "begin": {
+                                "offset": 721,
+                                "line": 29,
+                                "column": 9
+                            },
+                            "end": {
+                                "offset": 741,
+                                "line": 29,
+                                "column": 29
+                            }
+                        },
+                        "closeTagRange": {
+                            "begin": {
+                                "offset": 721,
+                                "line": 29,
+                                "column": 9
+                            },
+                            "end": {
+                                "offset": 741,
+                                "line": 29,
+                                "column": 29
+                            }
+                        }
+                    },
+                    {
+                        "range": {
+                            "begin": {
+                                "offset": 741,
+                                "line": 29,
+                                "column": 29
+                            },
+                            "end": {
+                                "offset": 746,
+                                "line": 30,
+                                "column": 5
+                            }
+                        },
+                        "nodeType": "TEXT",
+                        "value": "\n    "
+                    }
+                ],
+                "nodeType": "ELEMENT",
+                "name": "group",
+                "attributes": [
+                    {
+                        "range": {
+                            "begin": {
+                                "offset": 515,
+                                "line": 20,
+                                "column": 12
+                            },
+                            "end": {
+                                "offset": 526,
+                                "line": 20,
+                                "column": 23
+                            }
+                        },
+                        "nodeType": "ATTRIBUTE",
+                        "name": "margin",
+                        "value": "10"
+                    },
+                    {
+                        "range": {
+                            "begin": {
+                                "offset": 538,
+                                "line": 21,
+                                "column": 12
+                            },
+                            "end": {
+                                "offset": 549,
+                                "line": 21,
+                                "column": 23
+                            }
+                        },
+                        "nodeType": "ATTRIBUTE",
+                        "name": "padding",
+                        "value": "5"
+                    },
+                    {
+                        "range": {
+                            "begin": {
+                                "offset": 561,
+                                "line": 22,
+                                "column": 12
+                            },
+                            "end": {
+                                "offset": 571,
+                                "line": 22,
+                                "column": 22
+                            }
+                        },
+                        "nodeType": "ATTRIBUTE",
+                        "name": "border",
+                        "value": "1"
+                    }
+                ],
+                "value": "\n        \n        user:\n        \n        password:\n        \n        file:\n        \n    ",
+                "isEmpty": false,
+                "openTagRange": {
+                    "begin": {
+                        "offset": 508,
+                        "line": 20,
+                        "column": 5
+                    },
+                    "end": {
+                        "offset": 572,
+                        "line": 22,
+                        "column": 23
+                    }
+                },
+                "closeTagRange": {
+                    "begin": {
+                        "offset": 746,
+                        "line": 30,
+                        "column": 5
+                    },
+                    "end": {
+                        "offset": 754,
+                        "line": 30,
+                        "column": 13
+                    }
+                }
+            },
+            {
+                "range": {
+                    "begin": {
+                        "offset": 754,
+                        "line": 30,
+                        "column": 13
+                    },
+                    "end": {
+                        "offset": 760,
+                        "line": 32,
+                        "column": 5
+                    }
+                },
+                "nodeType": "TEXT",
+                "value": "\n\n    "
+            },
+            {
+                "range": {
+                    "begin": {
+                        "offset": 760,
+                        "line": 32,
+                        "column": 5
+                    },
+                    "end": {
+                        "offset": 1062,
+                        "line": 42,
+                        "column": 20
+                    }
+                },
+                "children": [
+                    {
+                        "range": {
+                            "begin": {
+                                "offset": 852,
+                                "line": 34,
+                                "column": 30
+                            },
+                            "end": {
+                                "offset": 861,
+                                "line": 35,
+                                "column": 9
+                            }
+                        },
+                        "nodeType": "TEXT",
+                        "value": "\n        "
+                    },
+                    {
+                        "range": {
+                            "begin": {
+                                "offset": 861,
+                                "line": 35,
+                                "column": 9
+                            },
+                            "end": {
+                                "offset": 896,
+                                "line": 35,
+                                "column": 44
+                            }
+                        },
+                        "nodeType": "COMMENT",
+                        "value": " Comment in element section "
+                    },
+                    {
+                        "range": {
+                            "begin": {
+                                "offset": 896,
+                                "line": 35,
+                                "column": 44
+                            },
+                            "end": {
+                                "offset": 919,
+                                "line": 37,
+                                "column": 9
+                            }
+                        },
+                        "nodeType": "TEXT",
+                        "value": "\n        user:\n        "
+                    },
+                    {
+                        "range": {
+                            "begin": {
+                                "offset": 919,
+                                "line": 37,
+                                "column": 9
+                            },
+                            "end": {
+                                "offset": 934,
+                                "line": 37,
+                                "column": 24
+                            }
+                        },
+                        "children": [],
+                        "nodeType": "ELEMENT",
+                        "name": "extern:input",
+                        "attributes": [],
+                        "value": "",
+                        "isEmpty": true,
+                        "openTagRange": {
+                            "begin": {
+                                "offset": 919,
+                                "line": 37,
+                                "column": 9
+                            },
+                            "end": {
+                                "offset": 934,
+                                "line": 37,
+                                "column": 24
+                            }
+                        },
+                        "closeTagRange": {
+                            "begin": {
+                                "offset": 919,
+                                "line": 37,
+                                "column": 9
+                            },
+                            "end": {
+                                "offset": 934,
+                                "line": 37,
+                                "column": 24
+                            }
+                        }
+                    },
+                    {
+                        "range": {
+                            "begin": {
+                                "offset": 934,
+                                "line": 37,
+                                "column": 24
+                            },
+                            "end": {
+                                "offset": 961,
+                                "line": 39,
+                                "column": 9
+                            }
+                        },
+                        "nodeType": "TEXT",
+                        "value": "\n        password:\n        "
+                    },
+                    {
+                        "range": {
+                            "begin": {
+                                "offset": 961,
+                                "line": 39,
+                                "column": 9
+                            },
+                            "end": {
+                                "offset": 992,
+                                "line": 39,
+                                "column": 40
+                            }
+                        },
+                        "children": [],
+                        "nodeType": "ELEMENT",
+                        "name": "extern:input",
+                        "attributes": [
+                            {
+                                "range": {
+                                    "begin": {
+                                        "offset": 975,
+                                        "line": 39,
+                                        "column": 23
+                                    },
+                                    "end": {
+                                        "offset": 990,
+                                        "line": 39,
+                                        "column": 38
+                                    }
+                                },
+                                "nodeType": "ATTRIBUTE",
+                                "name": "type",
+                                "value": "password"
+                            }
+                        ],
+                        "value": "",
+                        "isEmpty": true,
+                        "openTagRange": {
+                            "begin": {
+                                "offset": 961,
+                                "line": 39,
+                                "column": 9
+                            },
+                            "end": {
+                                "offset": 992,
+                                "line": 39,
+                                "column": 40
+                            }
+                        },
+                        "closeTagRange": {
+                            "begin": {
+                                "offset": 961,
+                                "line": 39,
+                                "column": 9
+                            },
+                            "end": {
+                                "offset": 992,
+                                "line": 39,
+                                "column": 40
+                            }
+                        }
+                    },
+                    {
+                        "range": {
+                            "begin": {
+                                "offset": 992,
+                                "line": 39,
+                                "column": 40
+                            },
+                            "end": {
+                                "offset": 1015,
+                                "line": 41,
+                                "column": 9
+                            }
+                        },
+                        "nodeType": "TEXT",
+                        "value": "\n        file:\n        "
+                    },
+                    {
+                        "range": {
+                            "begin": {
+                                "offset": 1015,
+                                "line": 41,
+                                "column": 9
+                            },
+                            "end": {
+                                "offset": 1042,
+                                "line": 41,
+                                "column": 36
+                            }
+                        },
+                        "children": [],
+                        "nodeType": "ELEMENT",
+                        "name": "extern:input",
+                        "attributes": [
+                            {
+                                "range": {
+                                    "begin": {
+                                        "offset": 1029,
+                                        "line": 41,
+                                        "column": 23
+                                    },
+                                    "end": {
+                                        "offset": 1040,
+                                        "line": 41,
+                                        "column": 34
+                                    }
+                                },
+                                "nodeType": "ATTRIBUTE",
+                                "name": "type",
+                                "value": "file"
+                            }
+                        ],
+                        "value": "",
+                        "isEmpty": true,
+                        "openTagRange": {
+                            "begin": {
+                                "offset": 1015,
+                                "line": 41,
+                                "column": 9
+                            },
+                            "end": {
+                                "offset": 1042,
+                                "line": 41,
+                                "column": 36
+                            }
+                        },
+                        "closeTagRange": {
+                            "begin": {
+                                "offset": 1015,
+                                "line": 41,
+                                "column": 9
+                            },
+                            "end": {
+                                "offset": 1042,
+                                "line": 41,
+                                "column": 36
+                            }
+                        }
+                    },
+                    {
+                        "range": {
+                            "begin": {
+                                "offset": 1042,
+                                "line": 41,
+                                "column": 36
+                            },
+                            "end": {
+                                "offset": 1047,
+                                "line": 42,
+                                "column": 5
+                            }
+                        },
+                        "nodeType": "TEXT",
+                        "value": "\n    "
+                    }
+                ],
+                "nodeType": "ELEMENT",
+                "name": "extern:group",
+                "attributes": [
+                    {
+                        "range": {
+                            "begin": {
+                                "offset": 774,
+                                "line": 32,
+                                "column": 19
+                            },
+                            "end": {
+                                "offset": 792,
+                                "line": 32,
+                                "column": 37
+                            }
+                        },
+                        "nodeType": "ATTRIBUTE",
+                        "name": "extern:margin",
+                        "value": "10"
+                    },
+                    {
+                        "range": {
+                            "begin": {
+                                "offset": 811,
+                                "line": 33,
+                                "column": 19
+                            },
+                            "end": {
+                                "offset": 822,
+                                "line": 33,
+                                "column": 30
+                            }
+                        },
+                        "nodeType": "ATTRIBUTE",
+                        "name": "padding",
+                        "value": "5"
+                    },
+                    {
+                        "range": {
+                            "begin": {
+                                "offset": 841,
+                                "line": 34,
+                                "column": 19
+                            },
+                            "end": {
+                                "offset": 851,
+                                "line": 34,
+                                "column": 29
+                            }
+                        },
+                        "nodeType": "ATTRIBUTE",
+                        "name": "border",
+                        "value": "1"
+                    }
+                ],
+                "value": "\n        \n        user:\n        \n        password:\n        \n        file:\n        \n    ",
+                "isEmpty": false,
+                "openTagRange": {
+                    "begin": {
+                        "offset": 760,
+                        "line": 32,
+                        "column": 5
+                    },
+                    "end": {
+                        "offset": 852,
+                        "line": 34,
+                        "column": 30
+                    }
+                },
+                "closeTagRange": {
+                    "begin": {
+                        "offset": 1047,
+                        "line": 42,
+                        "column": 5
+                    },
+                    "end": {
+                        "offset": 1062,
+                        "line": 42,
+                        "column": 20
+                    }
+                }
+            },
+            {
+                "range": {
+                    "begin": {
+                        "offset": 1062,
+                        "line": 42,
+                        "column": 20
+                    },
+                    "end": {
+                        "offset": 1068,
+                        "line": 44,
+                        "column": 5
+                    }
+                },
+                "nodeType": "TEXT",
+                "value": "\n\n    "
+            },
+            {
+                "range": {
+                    "begin": {
+                        "offset": 1068,
+                        "line": 44,
+                        "column": 5
+                    },
+                    "end": {
+                        "offset": 1189,
+                        "line": 51,
+                        "column": 14
+                    }
+                },
+                "children": [
+                    {
+                        "range": {
+                            "begin": {
+                                "offset": 1076,
+                                "line": 44,
+                                "column": 13
+                            },
+                            "end": {
+                                "offset": 1085,
+                                "line": 45,
+                                "column": 9
+                            }
+                        },
+                        "nodeType": "TEXT",
+                        "value": "\n        "
+                    },
+                    {
+                        "range": {
+                            "begin": {
+                                "offset": 1085,
+                                "line": 45,
+                                "column": 9
+                            },
+                            "end": {
+                                "offset": 1175,
+                                "line": 50,
+                                "column": 4
+                            }
+                        },
+                        "nodeType": "CDATA",
+                        "value": "\n\n        function foo() {\n            console.log(\"Hello World!\");\n        }\n"
+                    },
+                    {
+                        "range": {
+                            "begin": {
+                                "offset": 1175,
+                                "line": 50,
+                                "column": 4
+                            },
+                            "end": {
+                                "offset": 1180,
+                                "line": 51,
+                                "column": 5
+                            }
+                        },
+                        "nodeType": "TEXT",
+                        "value": "\n    "
+                    }
+                ],
+                "nodeType": "ELEMENT",
+                "name": "script",
+                "attributes": [],
+                "value": "\n        \n\n        function foo() {\n            console.log(\"Hello World!\");\n        }\n\n    ",
+                "isEmpty": false,
+                "openTagRange": {
+                    "begin": {
+                        "offset": 1068,
+                        "line": 44,
+                        "column": 5
+                    },
+                    "end": {
+                        "offset": 1076,
+                        "line": 44,
+                        "column": 13
+                    }
+                },
+                "closeTagRange": {
+                    "begin": {
+                        "offset": 1180,
+                        "line": 51,
+                        "column": 5
+                    },
+                    "end": {
+                        "offset": 1189,
+                        "line": 51,
+                        "column": 14
+                    }
+                }
+            },
+            {
+                "range": {
+                    "begin": {
+                        "offset": 1189,
+                        "line": 51,
+                        "column": 14
+                    },
+                    "end": {
+                        "offset": 1190,
+                        "line": 52,
+                        "column": 1
+                    }
+                },
+                "nodeType": "TEXT",
+                "value": "\n"
+            }
+        ],
+        "nodeType": "ELEMENT",
+        "name": "form",
+        "attributes": [
+            {
+                "range": {
+                    "begin": {
+                        "offset": 227,
+                        "line": 13,
+                        "column": 7
+                    },
+                    "end": {
+                        "offset": 269,
+                        "line": 13,
+                        "column": 49
+                    }
+                },
+                "nodeType": "ATTRIBUTE",
+                "name": "xmlns",
+                "value": "https://www.swchen.com/schema/form"
+            },
+            {
+                "range": {
+                    "begin": {
+                        "offset": 276,
+                        "line": 14,
+                        "column": 7
+                    },
+                    "end": {
+                        "offset": 332,
+                        "line": 14,
+                        "column": 63
+                    }
+                },
+                "nodeType": "ATTRIBUTE",
+                "name": "xmlns:extern",
+                "value": "https://www.swchen.com/schema/form/extern"
+            },
+            {
+                "range": {
+                    "begin": {
+                        "offset": 339,
+                        "line": 15,
+                        "column": 7
+                    },
+                    "end": {
+                        "offset": 392,
+                        "line": 15,
+                        "column": 60
+                    }
+                },
+                "nodeType": "ATTRIBUTE",
+                "name": "xmlns:xsi",
+                "value": "http://www.w3.org/2001/XMLSchema-instance"
+            },
+            {
+                "range": {
+                    "begin": {
+                        "offset": 399,
+                        "line": 16,
+                        "column": 7
+                    },
+                    "end": {
+                        "offset": 463,
+                        "line": 16,
+                        "column": 71
+                    }
+                },
+                "nodeType": "ATTRIBUTE",
+                "name": "xsi:schemaLocation",
+                "value": "https://www.swchen.com/schema/form form.xsd"
+            }
+        ],
+        "value": "\n\n    \n\n    \n        \n        user:\n        \n        password:\n        \n        file:\n        \n    \n\n    \n        \n        user:\n        \n        password:\n        \n        file:\n        \n    \n\n    \n        \n\n        function foo() {\n            console.log(\"Hello World!\");\n        }\n\n    \n",
+        "isEmpty": false,
+        "openTagRange": {
+            "begin": {
+                "offset": 221,
+                "line": 13,
+                "column": 1
+            },
+            "end": {
+                "offset": 464,
+                "line": 16,
+                "column": 72
+            }
+        },
+        "closeTagRange": {
+            "begin": {
+                "offset": 1190,
+                "line": 52,
+                "column": 1
+            },
+            "end": {
+                "offset": 1197,
+                "line": 52,
+                "column": 8
+            }
+        }
+    },
+    "documentType": {
+        "range": {
+            "begin": {
+                "offset": 130,
+                "line": 8,
+                "column": 1
+            },
+            "end": {
+                "offset": 219,
+                "line": 11,
+                "column": 7
+            }
+        },
+        "nodeType": "DOCUMENT_TYPE",
+        "name": "form",
+        "publicId": null,
+        "systemId": null,
+        "internalSubset": "\n    <!-- Comment in DTD -->\n    <!ELEMENT form (group*|script?) >\n    "
+    },
+    "declaration": {
+        "range": {
+            "begin": {
+                "offset": 0,
+                "line": 1,
+                "column": 1
+            },
+            "end": {
+                "offset": 39,
+                "line": 1,
+                "column": 40
+            }
+        },
+        "nodeType": "XML_DECLARATION",
+        "version": "1.0",
+        "encoding": null,
+        "standalone": "yes"
+    }
+}
