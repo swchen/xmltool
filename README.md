@@ -40,7 +40,7 @@ const doc = new Parser(xml).parse();
 
 
 
-### option
+### Option
 
 
 
@@ -69,13 +69,13 @@ Settings supported:
 
 
 
-## reference
+## Reference
 
 
 
 1. [XML 1.0](https://www.w3.org/TR/xml/)
 2. [Namespaces in XML 1.0](https://www.w3.org/TR/xml-names/)
-3. [system.xml.linq](https://docs.microsoft.com/en-us/dotnet/api/system.xml.linq)
+3. [System.Xml.Linq](https://docs.microsoft.com/en-us/dotnet/api/system.xml.linq)
 4. [System.Xml](https://docs.microsoft.com/en-us/dotnet/api/system.xml)
 5. [sax-js](https://github.com/isaacs/sax-js) A sax style parser for JS.
 6. [pjxml](https://github.com/smeans/pjxml) Pure JavaScript XML parser.
