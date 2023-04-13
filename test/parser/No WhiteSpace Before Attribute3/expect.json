@@ -1,0 +1,1448 @@
+{
+    "range": {
+        "begin": {
+            "offset": 0,
+            "line": 1,
+            "column": 1
+        },
+        "end": {
+            "offset": 479,
+            "line": 29,
+            "column": 1
+        }
+    },
+    "children": [
+        {
+            "range": {
+                "begin": {
+                    "offset": 2,
+                    "line": 3,
+                    "column": 1
+                },
+                "end": {
+                    "offset": 478,
+                    "line": 28,
+                    "column": 8
+                }
+            },
+            "children": [
+                {
+                    "range": {
+                        "begin": {
+                            "offset": 182,
+                            "line": 5,
+                            "column": 72
+                        },
+                        "end": {
+                            "offset": 188,
+                            "line": 7,
+                            "column": 5
+                        }
+                    },
+                    "nodeType": "TEXT",
+                    "value": "\n\n    "
+                },
+                {
+                    "range": {
+                        "begin": {
+                            "offset": 188,
+                            "line": 7,
+                            "column": 5
+                        },
+                        "end": {
+                            "offset": 275,
+                            "line": 10,
+                            "column": 13
+                        }
+                    },
+                    "children": [
+                        {
+                            "range": {
+                                "begin": {
+                                    "offset": 262,
+                                    "line": 9,
+                                    "column": 28
+                                },
+                                "end": {
+                                    "offset": 267,
+                                    "line": 10,
+                                    "column": 5
+                                }
+                            },
+                            "nodeType": "TEXT",
+                            "value": "\n    "
+                        }
+                    ],
+                    "nodeType": "ELEMENT",
+                    "name": "group",
+                    "attributes": [
+                        {
+                            "range": {
+                                "begin": {
+                                    "offset": 211,
+                                    "line": 8,
+                                    "column": 17
+                                },
+                                "end": {
+                                    "offset": 222,
+                                    "line": 8,
+                                    "column": 28
+                                }
+                            },
+                            "nodeType": "ATTRIBUTE",
+                            "name": "margin",
+                            "value": "10"
+                        },
+                        {
+                            "range": {
+                                "begin": {
+                                    "offset": 223,
+                                    "line": 8,
+                                    "column": 29
+                                },
+                                "end": {
+                                    "offset": 234,
+                                    "line": 8,
+                                    "column": 40
+                                }
+                            },
+                            "nodeType": "ATTRIBUTE",
+                            "name": "padding",
+                            "value": "5"
+                        },
+                        {
+                            "range": {
+                                "begin": {
+                                    "offset": 247,
+                                    "line": 9,
+                                    "column": 13
+                                },
+                                "end": {
+                                    "offset": 257,
+                                    "line": 9,
+                                    "column": 23
+                                }
+                            },
+                            "nodeType": "ATTRIBUTE",
+                            "name": "border",
+                            "value": "1"
+                        }
+                    ],
+                    "value": "\n    ",
+                    "isEmpty": false,
+                    "openTagRange": {
+                        "begin": {
+                            "offset": 188,
+                            "line": 7,
+                            "column": 5
+                        },
+                        "end": {
+                            "offset": 262,
+                            "line": 9,
+                            "column": 28
+                        }
+                    },
+                    "closeTagRange": {
+                        "begin": {
+                            "offset": 267,
+                            "line": 10,
+                            "column": 5
+                        },
+                        "end": {
+                            "offset": 275,
+                            "line": 10,
+                            "column": 13
+                        }
+                    }
+                },
+                {
+                    "range": {
+                        "begin": {
+                            "offset": 275,
+                            "line": 10,
+                            "column": 13
+                        },
+                        "end": {
+                            "offset": 282,
+                            "line": 13,
+                            "column": 5
+                        }
+                    },
+                    "nodeType": "TEXT",
+                    "value": "\n\n\n    "
+                },
+                {
+                    "range": {
+                        "begin": {
+                            "offset": 282,
+                            "line": 13,
+                            "column": 5
+                        },
+                        "end": {
+                            "offset": 337,
+                            "line": 14,
+                            "column": 13
+                        }
+                    },
+                    "children": [
+                        {
+                            "range": {
+                                "begin": {
+                                    "offset": 324,
+                                    "line": 13,
+                                    "column": 47
+                                },
+                                "end": {
+                                    "offset": 329,
+                                    "line": 14,
+                                    "column": 5
+                                }
+                            },
+                            "nodeType": "TEXT",
+                            "value": "\n    "
+                        }
+                    ],
+                    "nodeType": "ELEMENT",
+                    "name": "group",
+                    "attributes": [
+                        {
+                            "range": {
+                                "begin": {
+                                    "offset": 289,
+                                    "line": 13,
+                                    "column": 12
+                                },
+                                "end": {
+                                    "offset": 300,
+                                    "line": 13,
+                                    "column": 23
+                                }
+                            },
+                            "nodeType": "ATTRIBUTE",
+                            "name": "margin",
+                            "value": "10"
+                        },
+                        {
+                            "range": {
+                                "begin": {
+                                    "offset": 301,
+                                    "line": 13,
+                                    "column": 24
+                                },
+                                "end": {
+                                    "offset": 312,
+                                    "line": 13,
+                                    "column": 35
+                                }
+                            },
+                            "nodeType": "ATTRIBUTE",
+                            "name": "padding",
+                            "value": "5"
+                        },
+                        {
+                            "range": {
+                                "begin": {
+                                    "offset": 313,
+                                    "line": 13,
+                                    "column": 36
+                                },
+                                "end": {
+                                    "offset": 323,
+                                    "line": 13,
+                                    "column": 46
+                                }
+                            },
+                            "nodeType": "ATTRIBUTE",
+                            "name": "border",
+                            "value": "1"
+                        }
+                    ],
+                    "value": "\n    ",
+                    "isEmpty": false,
+                    "openTagRange": {
+                        "begin": {
+                            "offset": 282,
+                            "line": 13,
+                            "column": 5
+                        },
+                        "end": {
+                            "offset": 324,
+                            "line": 13,
+                            "column": 47
+                        }
+                    },
+                    "closeTagRange": {
+                        "begin": {
+                            "offset": 329,
+                            "line": 14,
+                            "column": 5
+                        },
+                        "end": {
+                            "offset": 337,
+                            "line": 14,
+                            "column": 13
+                        }
+                    }
+                },
+                {
+                    "range": {
+                        "begin": {
+                            "offset": 337,
+                            "line": 14,
+                            "column": 13
+                        },
+                        "end": {
+                            "offset": 343,
+                            "line": 16,
+                            "column": 5
+                        }
+                    },
+                    "nodeType": "TEXT",
+                    "value": "\n\n    "
+                },
+                {
+                    "range": {
+                        "begin": {
+                            "offset": 343,
+                            "line": 16,
+                            "column": 5
+                        },
+                        "end": {
+                            "offset": 375,
+                            "line": 17,
+                            "column": 13
+                        }
+                    },
+                    "children": [
+                        {
+                            "range": {
+                                "begin": {
+                                    "offset": 362,
+                                    "line": 16,
+                                    "column": 24
+                                },
+                                "end": {
+                                    "offset": 367,
+                                    "line": 17,
+                                    "column": 5
+                                }
+                            },
+                            "nodeType": "TEXT",
+                            "value": "\n    "
+                        }
+                    ],
+                    "nodeType": "ELEMENT",
+                    "name": "group",
+                    "attributes": [
+                        {
+                            "range": {
+                                "begin": {
+                                    "offset": 350,
+                                    "line": 16,
+                                    "column": 12
+                                },
+                                "end": {
+                                    "offset": 361,
+                                    "line": 16,
+                                    "column": 23
+                                }
+                            },
+                            "nodeType": "ATTRIBUTE",
+                            "name": "margin",
+                            "value": "10"
+                        }
+                    ],
+                    "value": "\n    ",
+                    "isEmpty": false,
+                    "openTagRange": {
+                        "begin": {
+                            "offset": 343,
+                            "line": 16,
+                            "column": 5
+                        },
+                        "end": {
+                            "offset": 362,
+                            "line": 16,
+                            "column": 24
+                        }
+                    },
+                    "closeTagRange": {
+                        "begin": {
+                            "offset": 367,
+                            "line": 17,
+                            "column": 5
+                        },
+                        "end": {
+                            "offset": 375,
+                            "line": 17,
+                            "column": 13
+                        }
+                    }
+                },
+                {
+                    "range": {
+                        "begin": {
+                            "offset": 375,
+                            "line": 17,
+                            "column": 13
+                        },
+                        "end": {
+                            "offset": 381,
+                            "line": 19,
+                            "column": 5
+                        }
+                    },
+                    "nodeType": "TEXT",
+                    "value": "\n\n    "
+                },
+                {
+                    "range": {
+                        "begin": {
+                            "offset": 381,
+                            "line": 19,
+                            "column": 5
+                        },
+                        "end": {
+                            "offset": 416,
+                            "line": 20,
+                            "column": 13
+                        }
+                    },
+                    "children": [
+                        {
+                            "range": {
+                                "begin": {
+                                    "offset": 403,
+                                    "line": 19,
+                                    "column": 27
+                                },
+                                "end": {
+                                    "offset": 408,
+                                    "line": 20,
+                                    "column": 5
+                                }
+                            },
+                            "nodeType": "TEXT",
+                            "value": "\n    "
+                        }
+                    ],
+                    "nodeType": "ELEMENT",
+                    "name": "group",
+                    "attributes": [
+                        {
+                            "range": {
+                                "begin": {
+                                    "offset": 388,
+                                    "line": 19,
+                                    "column": 12
+                                },
+                                "end": {
+                                    "offset": 399,
+                                    "line": 19,
+                                    "column": 23
+                                }
+                            },
+                            "nodeType": "ATTRIBUTE",
+                            "name": "margin",
+                            "value": "10"
+                        }
+                    ],
+                    "value": "\n    ",
+                    "isEmpty": false,
+                    "openTagRange": {
+                        "begin": {
+                            "offset": 381,
+                            "line": 19,
+                            "column": 5
+                        },
+                        "end": {
+                            "offset": 403,
+                            "line": 19,
+                            "column": 27
+                        }
+                    },
+                    "closeTagRange": {
+                        "begin": {
+                            "offset": 408,
+                            "line": 20,
+                            "column": 5
+                        },
+                        "end": {
+                            "offset": 416,
+                            "line": 20,
+                            "column": 13
+                        }
+                    }
+                },
+                {
+                    "range": {
+                        "begin": {
+                            "offset": 416,
+                            "line": 20,
+                            "column": 13
+                        },
+                        "end": {
+                            "offset": 422,
+                            "line": 22,
+                            "column": 5
+                        }
+                    },
+                    "nodeType": "TEXT",
+                    "value": "\n\n    "
+                },
+                {
+                    "range": {
+                        "begin": {
+                            "offset": 422,
+                            "line": 22,
+                            "column": 5
+                        },
+                        "end": {
+                            "offset": 443,
+                            "line": 23,
+                            "column": 13
+                        }
+                    },
+                    "children": [
+                        {
+                            "range": {
+                                "begin": {
+                                    "offset": 430,
+                                    "line": 22,
+                                    "column": 13
+                                },
+                                "end": {
+                                    "offset": 435,
+                                    "line": 23,
+                                    "column": 5
+                                }
+                            },
+                            "nodeType": "TEXT",
+                            "value": "\n    "
+                        }
+                    ],
+                    "nodeType": "ELEMENT",
+                    "name": "group",
+                    "attributes": [],
+                    "value": "\n    ",
+                    "isEmpty": false,
+                    "openTagRange": {
+                        "begin": {
+                            "offset": 422,
+                            "line": 22,
+                            "column": 5
+                        },
+                        "end": {
+                            "offset": 430,
+                            "line": 22,
+                            "column": 13
+                        }
+                    },
+                    "closeTagRange": {
+                        "begin": {
+                            "offset": 435,
+                            "line": 23,
+                            "column": 5
+                        },
+                        "end": {
+                            "offset": 443,
+                            "line": 23,
+                            "column": 13
+                        }
+                    }
+                },
+                {
+                    "range": {
+                        "begin": {
+                            "offset": 443,
+                            "line": 23,
+                            "column": 13
+                        },
+                        "end": {
+                            "offset": 450,
+                            "line": 26,
+                            "column": 5
+                        }
+                    },
+                    "nodeType": "TEXT",
+                    "value": "\n\n\n    "
+                },
+                {
+                    "range": {
+                        "begin": {
+                            "offset": 450,
+                            "line": 26,
+                            "column": 5
+                        },
+                        "end": {
+                            "offset": 470,
+                            "line": 27,
+                            "column": 13
+                        }
+                    },
+                    "children": [
+                        {
+                            "range": {
+                                "begin": {
+                                    "offset": 457,
+                                    "line": 26,
+                                    "column": 12
+                                },
+                                "end": {
+                                    "offset": 462,
+                                    "line": 27,
+                                    "column": 5
+                                }
+                            },
+                            "nodeType": "TEXT",
+                            "value": "\n    "
+                        }
+                    ],
+                    "nodeType": "ELEMENT",
+                    "name": "group",
+                    "attributes": [],
+                    "value": "\n    ",
+                    "isEmpty": false,
+                    "openTagRange": {
+                        "begin": {
+                            "offset": 450,
+                            "line": 26,
+                            "column": 5
+                        },
+                        "end": {
+                            "offset": 457,
+                            "line": 26,
+                            "column": 12
+                        }
+                    },
+                    "closeTagRange": {
+                        "begin": {
+                            "offset": 462,
+                            "line": 27,
+                            "column": 5
+                        },
+                        "end": {
+                            "offset": 470,
+                            "line": 27,
+                            "column": 13
+                        }
+                    }
+                },
+                {
+                    "range": {
+                        "begin": {
+                            "offset": 470,
+                            "line": 27,
+                            "column": 13
+                        },
+                        "end": {
+                            "offset": 471,
+                            "line": 28,
+                            "column": 1
+                        }
+                    },
+                    "nodeType": "TEXT",
+                    "value": "\n"
+                }
+            ],
+            "nodeType": "ELEMENT",
+            "name": "form",
+            "attributes": [
+                {
+                    "range": {
+                        "begin": {
+                            "offset": 8,
+                            "line": 3,
+                            "column": 7
+                        },
+                        "end": {
+                            "offset": 50,
+                            "line": 3,
+                            "column": 49
+                        }
+                    },
+                    "nodeType": "ATTRIBUTE",
+                    "name": "xmlns",
+                    "value": "https://www.swchen.com/schema/form"
+                },
+                {
+                    "range": {
+                        "begin": {
+                            "offset": 57,
+                            "line": 4,
+                            "column": 7
+                        },
+                        "end": {
+                            "offset": 110,
+                            "line": 4,
+                            "column": 60
+                        }
+                    },
+                    "nodeType": "ATTRIBUTE",
+                    "name": "xmlns:xsi",
+                    "value": "http://www.w3.org/2001/XMLSchema-instance"
+                },
+                {
+                    "range": {
+                        "begin": {
+                            "offset": 117,
+                            "line": 5,
+                            "column": 7
+                        },
+                        "end": {
+                            "offset": 181,
+                            "line": 5,
+                            "column": 71
+                        }
+                    },
+                    "nodeType": "ATTRIBUTE",
+                    "name": "xsi:schemaLocation",
+                    "value": "https://www.swchen.com/schema/form form.xsd"
+                }
+            ],
+            "value": "\n\n    \n    \n\n\n    \n    \n\n    \n    \n\n    \n    \n\n    \n    \n\n\n    \n    \n",
+            "isEmpty": false,
+            "openTagRange": {
+                "begin": {
+                    "offset": 2,
+                    "line": 3,
+                    "column": 1
+                },
+                "end": {
+                    "offset": 182,
+                    "line": 5,
+                    "column": 72
+                }
+            },
+            "closeTagRange": {
+                "begin": {
+                    "offset": 471,
+                    "line": 28,
+                    "column": 1
+                },
+                "end": {
+                    "offset": 478,
+                    "line": 28,
+                    "column": 8
+                }
+            }
+        }
+    ],
+    "nodeType": "DOCUMENT",
+    "documentElement": {
+        "range": {
+            "begin": {
+                "offset": 2,
+                "line": 3,
+                "column": 1
+            },
+            "end": {
+                "offset": 478,
+                "line": 28,
+                "column": 8
+            }
+        },
+        "children": [
+            {
+                "range": {
+                    "begin": {
+                        "offset": 182,
+                        "line": 5,
+                        "column": 72
+                    },
+                    "end": {
+                        "offset": 188,
+                        "line": 7,
+                        "column": 5
+                    }
+                },
+                "nodeType": "TEXT",
+                "value": "\n\n    "
+            },
+            {
+                "range": {
+                    "begin": {
+                        "offset": 188,
+                        "line": 7,
+                        "column": 5
+                    },
+                    "end": {
+                        "offset": 275,
+                        "line": 10,
+                        "column": 13
+                    }
+                },
+                "children": [
+                    {
+                        "range": {
+                            "begin": {
+                                "offset": 262,
+                                "line": 9,
+                                "column": 28
+                            },
+                            "end": {
+                                "offset": 267,
+                                "line": 10,
+                                "column": 5
+                            }
+                        },
+                        "nodeType": "TEXT",
+                        "value": "\n    "
+                    }
+                ],
+                "nodeType": "ELEMENT",
+                "name": "group",
+                "attributes": [
+                    {
+                        "range": {
+                            "begin": {
+                                "offset": 211,
+                                "line": 8,
+                                "column": 17
+                            },
+                            "end": {
+                                "offset": 222,
+                                "line": 8,
+                                "column": 28
+                            }
+                        },
+                        "nodeType": "ATTRIBUTE",
+                        "name": "margin",
+                        "value": "10"
+                    },
+                    {
+                        "range": {
+                            "begin": {
+                                "offset": 223,
+                                "line": 8,
+                                "column": 29
+                            },
+                            "end": {
+                                "offset": 234,
+                                "line": 8,
+                                "column": 40
+                            }
+                        },
+                        "nodeType": "ATTRIBUTE",
+                        "name": "padding",
+                        "value": "5"
+                    },
+                    {
+                        "range": {
+                            "begin": {
+                                "offset": 247,
+                                "line": 9,
+                                "column": 13
+                            },
+                            "end": {
+                                "offset": 257,
+                                "line": 9,
+                                "column": 23
+                            }
+                        },
+                        "nodeType": "ATTRIBUTE",
+                        "name": "border",
+                        "value": "1"
+                    }
+                ],
+                "value": "\n    ",
+                "isEmpty": false,
+                "openTagRange": {
+                    "begin": {
+                        "offset": 188,
+                        "line": 7,
+                        "column": 5
+                    },
+                    "end": {
+                        "offset": 262,
+                        "line": 9,
+                        "column": 28
+                    }
+                },
+                "closeTagRange": {
+                    "begin": {
+                        "offset": 267,
+                        "line": 10,
+                        "column": 5
+                    },
+                    "end": {
+                        "offset": 275,
+                        "line": 10,
+                        "column": 13
+                    }
+                }
+            },
+            {
+                "range": {
+                    "begin": {
+                        "offset": 275,
+                        "line": 10,
+                        "column": 13
+                    },
+                    "end": {
+                        "offset": 282,
+                        "line": 13,
+                        "column": 5
+                    }
+                },
+                "nodeType": "TEXT",
+                "value": "\n\n\n    "
+            },
+            {
+                "range": {
+                    "begin": {
+                        "offset": 282,
+                        "line": 13,
+                        "column": 5
+                    },
+                    "end": {
+                        "offset": 337,
+                        "line": 14,
+                        "column": 13
+                    }
+                },
+                "children": [
+                    {
+                        "range": {
+                            "begin": {
+                                "offset": 324,
+                                "line": 13,
+                                "column": 47
+                            },
+                            "end": {
+                                "offset": 329,
+                                "line": 14,
+                                "column": 5
+                            }
+                        },
+                        "nodeType": "TEXT",
+                        "value": "\n    "
+                    }
+                ],
+                "nodeType": "ELEMENT",
+                "name": "group",
+                "attributes": [
+                    {
+                        "range": {
+                            "begin": {
+                                "offset": 289,
+                                "line": 13,
+                                "column": 12
+                            },
+                            "end": {
+                                "offset": 300,
+                                "line": 13,
+                                "column": 23
+                            }
+                        },
+                        "nodeType": "ATTRIBUTE",
+                        "name": "margin",
+                        "value": "10"
+                    },
+                    {
+                        "range": {
+                            "begin": {
+                                "offset": 301,
+                                "line": 13,
+                                "column": 24
+                            },
+                            "end": {
+                                "offset": 312,
+                                "line": 13,
+                                "column": 35
+                            }
+                        },
+                        "nodeType": "ATTRIBUTE",
+                        "name": "padding",
+                        "value": "5"
+                    },
+                    {
+                        "range": {
+                            "begin": {
+                                "offset": 313,
+                                "line": 13,
+                                "column": 36
+                            },
+                            "end": {
+                                "offset": 323,
+                                "line": 13,
+                                "column": 46
+                            }
+                        },
+                        "nodeType": "ATTRIBUTE",
+                        "name": "border",
+                        "value": "1"
+                    }
+                ],
+                "value": "\n    ",
+                "isEmpty": false,
+                "openTagRange": {
+                    "begin": {
+                        "offset": 282,
+                        "line": 13,
+                        "column": 5
+                    },
+                    "end": {
+                        "offset": 324,
+                        "line": 13,
+                        "column": 47
+                    }
+                },
+                "closeTagRange": {
+                    "begin": {
+                        "offset": 329,
+                        "line": 14,
+                        "column": 5
+                    },
+                    "end": {
+                        "offset": 337,
+                        "line": 14,
+                        "column": 13
+                    }
+                }
+            },
+            {
+                "range": {
+                    "begin": {
+                        "offset": 337,
+                        "line": 14,
+                        "column": 13
+                    },
+                    "end": {
+                        "offset": 343,
+                        "line": 16,
+                        "column": 5
+                    }
+                },
+                "nodeType": "TEXT",
+                "value": "\n\n    "
+            },
+            {
+                "range": {
+                    "begin": {
+                        "offset": 343,
+                        "line": 16,
+                        "column": 5
+                    },
+                    "end": {
+                        "offset": 375,
+                        "line": 17,
+                        "column": 13
+                    }
+                },
+                "children": [
+                    {
+                        "range": {
+                            "begin": {
+                                "offset": 362,
+                                "line": 16,
+                                "column": 24
+                            },
+                            "end": {
+                                "offset": 367,
+                                "line": 17,
+                                "column": 5
+                            }
+                        },
+                        "nodeType": "TEXT",
+                        "value": "\n    "
+                    }
+                ],
+                "nodeType": "ELEMENT",
+                "name": "group",
+                "attributes": [
+                    {
+                        "range": {
+                            "begin": {
+                                "offset": 350,
+                                "line": 16,
+                                "column": 12
+                            },
+                            "end": {
+                                "offset": 361,
+                                "line": 16,
+                                "column": 23
+                            }
+                        },
+                        "nodeType": "ATTRIBUTE",
+                        "name": "margin",
+                        "value": "10"
+                    }
+                ],
+                "value": "\n    ",
+                "isEmpty": false,
+                "openTagRange": {
+                    "begin": {
+                        "offset": 343,
+                        "line": 16,
+                        "column": 5
+                    },
+                    "end": {
+                        "offset": 362,
+                        "line": 16,
+                        "column": 24
+                    }
+                },
+                "closeTagRange": {
+                    "begin": {
+                        "offset": 367,
+                        "line": 17,
+                        "column": 5
+                    },
+                    "end": {
+                        "offset": 375,
+                        "line": 17,
+                        "column": 13
+                    }
+                }
+            },
+            {
+                "range": {
+                    "begin": {
+                        "offset": 375,
+                        "line": 17,
+                        "column": 13
+                    },
+                    "end": {
+                        "offset": 381,
+                        "line": 19,
+                        "column": 5
+                    }
+                },
+                "nodeType": "TEXT",
+                "value": "\n\n    "
+            },
+            {
+                "range": {
+                    "begin": {
+                        "offset": 381,
+                        "line": 19,
+                        "column": 5
+                    },
+                    "end": {
+                        "offset": 416,
+                        "line": 20,
+                        "column": 13
+                    }
+                },
+                "children": [
+                    {
+                        "range": {
+                            "begin": {
+                                "offset": 403,
+                                "line": 19,
+                                "column": 27
+                            },
+                            "end": {
+                                "offset": 408,
+                                "line": 20,
+                                "column": 5
+                            }
+                        },
+                        "nodeType": "TEXT",
+                        "value": "\n    "
+                    }
+                ],
+                "nodeType": "ELEMENT",
+                "name": "group",
+                "attributes": [
+                    {
+                        "range": {
+                            "begin": {
+                                "offset": 388,
+                                "line": 19,
+                                "column": 12
+                            },
+                            "end": {
+                                "offset": 399,
+                                "line": 19,
+                                "column": 23
+                            }
+                        },
+                        "nodeType": "ATTRIBUTE",
+                        "name": "margin",
+                        "value": "10"
+                    }
+                ],
+                "value": "\n    ",
+                "isEmpty": false,
+                "openTagRange": {
+                    "begin": {
+                        "offset": 381,
+                        "line": 19,
+                        "column": 5
+                    },
+                    "end": {
+                        "offset": 403,
+                        "line": 19,
+                        "column": 27
+                    }
+                },
+                "closeTagRange": {
+                    "begin": {
+                        "offset": 408,
+                        "line": 20,
+                        "column": 5
+                    },
+                    "end": {
+                        "offset": 416,
+                        "line": 20,
+                        "column": 13
+                    }
+                }
+            },
+            {
+                "range": {
+                    "begin": {
+                        "offset": 416,
+                        "line": 20,
+                        "column": 13
+                    },
+                    "end": {
+                        "offset": 422,
+                        "line": 22,
+                        "column": 5
+                    }
+                },
+                "nodeType": "TEXT",
+                "value": "\n\n    "
+            },
+            {
+                "range": {
+                    "begin": {
+                        "offset": 422,
+                        "line": 22,
+                        "column": 5
+                    },
+                    "end": {
+                        "offset": 443,
+                        "line": 23,
+                        "column": 13
+                    }
+                },
+                "children": [
+                    {
+                        "range": {
+                            "begin": {
+                                "offset": 430,
+                                "line": 22,
+                                "column": 13
+                            },
+                            "end": {
+                                "offset": 435,
+                                "line": 23,
+                                "column": 5
+                            }
+                        },
+                        "nodeType": "TEXT",
+                        "value": "\n    "
+                    }
+                ],
+                "nodeType": "ELEMENT",
+                "name": "group",
+                "attributes": [],
+                "value": "\n    ",
+                "isEmpty": false,
+                "openTagRange": {
+                    "begin": {
+                        "offset": 422,
+                        "line": 22,
+                        "column": 5
+                    },
+                    "end": {
+                        "offset": 430,
+                        "line": 22,
+                        "column": 13
+                    }
+                },
+                "closeTagRange": {
+                    "begin": {
+                        "offset": 435,
+                        "line": 23,
+                        "column": 5
+                    },
+                    "end": {
+                        "offset": 443,
+                        "line": 23,
+                        "column": 13
+                    }
+                }
+            },
+            {
+                "range": {
+                    "begin": {
+                        "offset": 443,
+                        "line": 23,
+                        "column": 13
+                    },
+                    "end": {
+                        "offset": 450,
+                        "line": 26,
+                        "column": 5
+                    }
+                },
+                "nodeType": "TEXT",
+                "value": "\n\n\n    "
+            },
+            {
+                "range": {
+                    "begin": {
+                        "offset": 450,
+                        "line": 26,
+                        "column": 5
+                    },
+                    "end": {
+                        "offset": 470,
+                        "line": 27,
+                        "column": 13
+                    }
+                },
+                "children": [
+                    {
+                        "range": {
+                            "begin": {
+                                "offset": 457,
+                                "line": 26,
+                                "column": 12
+                            },
+                            "end": {
+                                "offset": 462,
+                                "line": 27,
+                                "column": 5
+                            }
+                        },
+                        "nodeType": "TEXT",
+                        "value": "\n    "
+                    }
+                ],
+                "nodeType": "ELEMENT",
+                "name": "group",
+                "attributes": [],
+                "value": "\n    ",
+                "isEmpty": false,
+                "openTagRange": {
+                    "begin": {
+                        "offset": 450,
+                        "line": 26,
+                        "column": 5
+                    },
+                    "end": {
+                        "offset": 457,
+                        "line": 26,
+                        "column": 12
+                    }
+                },
+                "closeTagRange": {
+                    "begin": {
+                        "offset": 462,
+                        "line": 27,
+                        "column": 5
+                    },
+                    "end": {
+                        "offset": 470,
+                        "line": 27,
+                        "column": 13
+                    }
+                }
+            },
+            {
+                "range": {
+                    "begin": {
+                        "offset": 470,
+                        "line": 27,
+                        "column": 13
+                    },
+                    "end": {
+                        "offset": 471,
+                        "line": 28,
+                        "column": 1
+                    }
+                },
+                "nodeType": "TEXT",
+                "value": "\n"
+            }
+        ],
+        "nodeType": "ELEMENT",
+        "name": "form",
+        "attributes": [
+            {
+                "range": {
+                    "begin": {
+                        "offset": 8,
+                        "line": 3,
+                        "column": 7
+                    },
+                    "end": {
+                        "offset": 50,
+                        "line": 3,
+                        "column": 49
+                    }
+                },
+                "nodeType": "ATTRIBUTE",
+                "name": "xmlns",
+                "value": "https://www.swchen.com/schema/form"
+            },
+            {
+                "range": {
+                    "begin": {
+                        "offset": 57,
+                        "line": 4,
+                        "column": 7
+                    },
+                    "end": {
+                        "offset": 110,
+                        "line": 4,
+                        "column": 60
+                    }
+                },
+                "nodeType": "ATTRIBUTE",
+                "name": "xmlns:xsi",
+                "value": "http://www.w3.org/2001/XMLSchema-instance"
+            },
+            {
+                "range": {
+                    "begin": {
+                        "offset": 117,
+                        "line": 5,
+                        "column": 7
+                    },
+                    "end": {
+                        "offset": 181,
+                        "line": 5,
+                        "column": 71
+                    }
+                },
+                "nodeType": "ATTRIBUTE",
+                "name": "xsi:schemaLocation",
+                "value": "https://www.swchen.com/schema/form form.xsd"
+            }
+        ],
+        "value": "\n\n    \n    \n\n\n    \n    \n\n    \n    \n\n    \n    \n\n    \n    \n\n\n    \n    \n",
+        "isEmpty": false,
+        "openTagRange": {
+            "begin": {
+                "offset": 2,
+                "line": 3,
+                "column": 1
+            },
+            "end": {
+                "offset": 182,
+                "line": 5,
+                "column": 72
+            }
+        },
+        "closeTagRange": {
+            "begin": {
+                "offset": 471,
+                "line": 28,
+                "column": 1
+            },
+            "end": {
+                "offset": 478,
+                "line": 28,
+                "column": 8
+            }
+        }
+    },
+    "documentType": null
+}

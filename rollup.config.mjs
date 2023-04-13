@@ -32,7 +32,7 @@ export default {
         del({targets: ["./es", "./cjs", "./umd"]}),
         babel({
             babelHelpers: "bundled",
-            exclude: /(node_modules|bower_components)/,
+            exclude: /node_modules/,
         }),
     ],
 };

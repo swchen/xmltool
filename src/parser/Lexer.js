@@ -193,7 +193,7 @@ export default class Lexer {
     //--------------------------------------------------------------------------
 
     whiteSpace() {
-        this.manyRe(Constant.NameReMap.WHITE_SPACE, "WhiteSpace");
+        return this.manyRe(Constant.NameReMap.WHITE_SPACE, "WhiteSpace");
     }
 
     name() {

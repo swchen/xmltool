@@ -23,9 +23,7 @@ export default class Parser {
 
         this._containerStack = [];
 
-        this._entityMap = {
-            ...Constant.XmlEntityMap,
-        };
+        this._entityMap = Constant.XmlEntityMap;
 
         this._option = {
             namespace: true,
@@ -388,7 +386,7 @@ export default class Parser {
         this._state = Constant.State.DOCUMENT_BODY;
     }
 
-    documentBody(opt) {
+    documentBody() {
 
         this._lexer.whiteSpace();
 
@@ -396,14 +394,13 @@ export default class Parser {
             this._state = Constant.State.DOCUMENT_END;
 
         } else {
-            const {
-                isElementTaken = false,
-            } = opt || {};
+
+            let container = this.top().container;
 
             if (this._lexer.peekSeq("<?")) {
                 this.processingInstruction();
 
-            } else if (!isElementTaken
+            } else if (container.documentElement == null
                 && this._lexer.peekSeq("<!DOCTYPE")) {
 
                 this.documentType();
@@ -453,7 +450,7 @@ export default class Parser {
         const attributes = [];
         const attNameMap = {};
         while (true) {
-            this._lexer.whiteSpace();
+            const wsStr = this._lexer.whiteSpace();
 
 
             if (this._lexer.peekSeq(">")
@@ -541,7 +538,7 @@ export default class Parser {
 
 
                     if (container.nodeType === Constant.XmlNodeType.DOCUMENT) {
-                        this._state = Constant.State.DOCUMENT_BODY_ELEMENT_AFTER;
+                        this._state = Constant.State.DOCUMENT_BODY;
 
                     } else {
                         container.value += elem.value;
@@ -554,6 +551,11 @@ export default class Parser {
             } else {
                 const pos = this._lexer.getPosition();
                 const name = this._lexer.ncName();
+
+                if (wsStr.length === 0) {
+                    this.failure2(`No WhiteSpace before attribute name: '${name}'.`, pos);
+                }
+
 
                 let attPrefix = null;
                 let attLocalName = null;
@@ -654,7 +656,9 @@ export default class Parser {
         const attributes = [];
         const attNameMap = {};
         while (true) {
-            this._lexer.whiteSpace();
+
+
+            const wsStr = this._lexer.whiteSpace();
 
             if (this._lexer.peekSeq(">")
                 || this._lexer.peekSeq("/>")) {
@@ -705,7 +709,7 @@ export default class Parser {
 
 
                     if (container.nodeType === Constant.XmlNodeType.DOCUMENT) {
-                        this._state = Constant.State.DOCUMENT_BODY_ELEMENT_AFTER;
+                        this._state = Constant.State.DOCUMENT_BODY;
 
                     } else {
                         container.value += elem.value;
@@ -718,6 +722,11 @@ export default class Parser {
             } else {
                 const pos = this._lexer.getPosition();
                 const name = this._lexer.name();
+
+                if (wsStr.length === 0) {
+                    this.failure2(`No WhiteSpace before attribute name: '${name}'.`, pos);
+                }
+
 
                 this._lexer.whiteSpace();
                 this._lexer.seq("=");
@@ -870,7 +879,7 @@ export default class Parser {
         container = this.top().container;
 
         if (container.nodeType === Constant.XmlNodeType.DOCUMENT) {
-            this._state = Constant.State.DOCUMENT_BODY_ELEMENT_AFTER;
+            this._state = Constant.State.DOCUMENT_BODY;
 
         } else {
             container.value += value;
@@ -907,7 +916,7 @@ export default class Parser {
         container = this.top().container;
 
         if (container.nodeType === Constant.XmlNodeType.DOCUMENT) {
-            this._state = Constant.State.DOCUMENT_BODY_ELEMENT_AFTER;
+            this._state = Constant.State.DOCUMENT_BODY;
 
         } else {
             container.value += value;
@@ -934,19 +943,6 @@ export default class Parser {
                     this.documentBody();
                     break;
                 }
-                case Constant.State.DOCUMENT_BODY_ELEMENT_AFTER: {
-                    this.documentBody({
-                        isElementTaken: true,
-                    });
-                    break;
-                }
-
-                case Constant.State.DOCUMENT_END: {
-                    return this.documentEnd();
-
-                    break;
-                }
-
                 case Constant.State.ELEMENT_BEGIN: {
                     if (namespace) {
                         this.nsElementBegin();
@@ -954,16 +950,12 @@ export default class Parser {
                         this.elementBegin();
                     }
 
-
                     break;
                 }
-
                 case Constant.State.ELEMENT_BODY: {
                     this.elementBody();
                     break;
                 }
-
-
                 case Constant.State.ELEMENT_END: {
 
                     if (namespace) {
@@ -974,7 +966,11 @@ export default class Parser {
 
                     break;
                 }
+                case Constant.State.DOCUMENT_END: {
+                    return this.documentEnd();
 
+                    break;
+                }
                 default: {
                     this.failure(`Not Supported State: ${this._state}.`);
                 }
