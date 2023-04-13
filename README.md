@@ -12,12 +12,13 @@ A XML parser for JavaScript
 
 ```shell
 npm install xmltool
-
-// or
-yarn add xmltool
 ```
 
+or
 
+```shell
+yarn add xmltool
+```
 
 
 
@@ -29,14 +30,29 @@ yarn add xmltool
 import {Parser} from "xmltool";
 
 const xml = `
-<user>
-    <name>Bill</name>
-    <age>18</age>
-</user>
+<form xmlns="https://www.swchen.com/schema/form"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="https://www.swchen.com/schema/form form.xsd">
+
+    <section margin="10"
+             padding="5">
+        user: <input/>
+        password: <input type="password"/>
+        file: <input type="file"/>
+    </section>
+</form>
 `;
 
 const doc = new Parser(xml).parse();
 ```
+
+
+
+
+
+[result.json](./demo/result.json)
+
+
 
 
 
@@ -54,7 +70,7 @@ new Parser(text, option)
 
 Settings supported:
 
-- `namespace` - Boolean. If true, then xml namespaces are supported. default value is `true`.
+- `namespace` - Boolean. If true, then xml namespaces are supported. default value is `false`.
 
 
 

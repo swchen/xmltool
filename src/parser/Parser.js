@@ -26,8 +26,8 @@ export default class Parser {
         this._entityMap = Constant.XmlEntityMap;
 
         this._option = {
-            namespace: true,
-            ...(option || {}),
+            namespace: false,
+            ...option,
         };
     }
 
@@ -553,7 +553,10 @@ export default class Parser {
                 const name = this._lexer.ncName();
 
                 if (wsStr.length === 0) {
-                    this.failure2(`No WhiteSpace before attribute name: '${name}'.`, pos);
+                    this.failure2(
+                        `No WhiteSpace before attribute name: '${name}'.`,
+                        pos,
+                    );
                 }
 
 
@@ -724,7 +727,10 @@ export default class Parser {
                 const name = this._lexer.name();
 
                 if (wsStr.length === 0) {
-                    this.failure2(`No WhiteSpace before attribute name: '${name}'.`, pos);
+                    this.failure2(
+                        `No WhiteSpace before attribute name: '${name}'.`,
+                        pos,
+                    );
                 }
 
 
