@@ -23,7 +23,7 @@ export default class Parser {
             throw new XmlException(`parameter 'text' must be a string.`, 0, 0);
         }
 
-        if (option != null 
+        if (option != null
             && typeof option !== "object") {
             throw new XmlException(`parameter 'option' must be a string.`, 0, 0);
         }
@@ -123,7 +123,10 @@ export default class Parser {
         let rst = "";
         let ch = this._lexer.peek();
         while (ch !== endCh) {
-            if (ch === "&") {
+            if (this._lexer.eof()) {
+                this.failure(`Unexpected end of file has occurred. The attribute value is not complete.`);
+
+            } else if (ch === "&") {
                 rst += this.reference();
 
             } else if (ch === "<") {
