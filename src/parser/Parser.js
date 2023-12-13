@@ -18,6 +18,16 @@ import assert from "../util/assert";
 export default class Parser {
 
     constructor(text, option) {
+
+        if (typeof text !== "string") {
+            throw new XmlException(`parameter 'text' must be a string.`, 0, 0);
+        }
+
+        if (option != null 
+            && typeof option !== "object") {
+            throw new XmlException(`parameter 'option' must be a string.`, 0, 0);
+        }
+
         this._lexer = new Lexer(text);
         this._state = Constant.State.BEGIN;
 
