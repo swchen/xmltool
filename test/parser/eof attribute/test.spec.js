@@ -10,7 +10,7 @@ import xml from "./xml";
 const expect = chai.expect;
 
 
-describe("EOF at attribute value", () => {
+describe("EOF in attribute value", () => {
 
     it("parse option namespace: false", async () => {
         expect(() => new Parser(xml).parse()).to.throw(`Unexpected end of file has occurred. The attribute value is not complete. Line 6, column 49.`);

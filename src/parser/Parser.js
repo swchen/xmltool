@@ -465,8 +465,13 @@ export default class Parser {
         while (true) {
             const wsStr = this._lexer.whiteSpace();
 
+            if (this._lexer.eof()) {
+                const tagName = prefix == null
+                    ? localName
+                    : `${prefix}:${localName}`;
+                this.failure(`Unexpected end of file has occurred. The element '${tagName}' tag is not complete.`);
 
-            if (this._lexer.peekSeq(">")
+            } else if (this._lexer.peekSeq(">")
                 || this._lexer.peekSeq("/>")) {
 
 
@@ -672,13 +677,13 @@ export default class Parser {
         const attributes = [];
         const attNameMap = {};
         while (true) {
-
-
             const wsStr = this._lexer.whiteSpace();
 
-            if (this._lexer.peekSeq(">")
-                || this._lexer.peekSeq("/>")) {
+            if (this._lexer.eof()) {
+                this.failure(`Unexpected end of file has occurred. The element '${name}' tag is not complete.`);
 
+            } else if (this._lexer.peekSeq(">")
+                || this._lexer.peekSeq("/>")) {
 
                 const elem = new XElement(
                     name,
@@ -737,6 +742,7 @@ export default class Parser {
 
             } else {
                 const pos = this._lexer.getPosition();
+
                 const name = this._lexer.name();
 
                 if (wsStr.length === 0) {

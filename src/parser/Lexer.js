@@ -87,7 +87,9 @@ export default class Lexer {
         if (f(ch)) {
             return this.next();
         } else {
-            this.failure(`'${ch}' is an unexpected token. Excepting: '${name}'.`);
+            this.failure((ch === "" 
+                ? `EOF`
+                : `'${ch}'`) + ` is an unexpected token. Excepting: '${name}'.`);
         }
     }
 
