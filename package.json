@@ -1,6 +1,6 @@
 {
     "name": "xmltool",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "XML parser tool",
     "author": "chensw",
     "main": "cjs/index.js",
@@ -42,6 +42,6 @@
     "scripts": {
         "test": "mocha \"test/**/*.spec.js\" --require @babel/register --require core-js --require regenerator-runtime",
         "build": "rollup -c",
-        "prepublish": "yarn build"
+        "prepare": "yarn build"
     }
 }
